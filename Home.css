@@ -1,0 +1,63 @@
+.header img{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url('images/ski-skitour-winter.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.container{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+td{
+    cursor: pointer;
+}
+
+* {box-sizing: border-box}
+
+.overlay1 {
+    position: absolute;
+    bottom: 51%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 50%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.img1:hover .overlay1 {
+    opacity: 1;
+}
+
+
+.overlay2 {
+    position: absolute;
+    bottom: 1%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 49%;
+    transition: .5s ease;
+    opacity:0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.img2:hover .overlay2 {
+    opacity: 1;
+}
