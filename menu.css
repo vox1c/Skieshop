@@ -1,66 +1,89 @@
-a.vlink {
-    color : #efefef;
-    position:relative;
-    height:54px;
-    width:72px;
-    text-align:center;
-    line-height:54px;
-    display:block;
-    font-size:1.2rem;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a.vlink span {
-    position : absolute;
-    opacity: 0;
-    transition : transform 400ms ease-out;
-    margin-left:24px;
-    box-shadow : 2px 4px 3px 1px rgba(0,0,0,0.2)
+ul.menu {
+    display: inline-block;
+    list-style-type: none;
+
 }
-a.vlink:nth-of-type(odd){
+li.menu_list {
+    height: 85px;
+    width: 85px;
+    position: relative;
+    margin: 0 20px;
+
+}
+li.menu_list .front,
+a.side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .5s ease-out;
+    cursor: pointer;
+}
+li.menu_list .front {
+    background-color: #34465d;
+    color: #FFFC00;
+    transform-origin: 0 0;
+}
+a.side {
+    background-color: #FFFC00;
+    color: #34465d;
+    transform-origin: 0 0 85px;
+    transform: rotateY(-90deg);
+}
+li.menu_list:hover a.side {
+    transform: rotateY(0deg);
+}
+li.menu_list:hover .front {
+    transform: rotateY(90deg);
+}
+
+li {
+    float: left;
+}
+
+ul{
+    display: inline-block;
+    text-align: left;
+}
+nav{
+    text-align: center;
+    background-color: #354a62;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 40%;
+    height: auto;
 
 }
 
-a.vlink span:before {
-    content : '';
-    display:block;
-    width:0;
-    height:0;
-    position:absolute;
-    border-top:8px solid transparent;
-    border-bottom:8px solid transparent;
-    border-right:8px solid #000;
-    left:-12px;
-    top:33%;
-}
-a.vlink span:hover {
-    background : #000 !important;
-}
-a.vlink:hover {
-    box-shadow : 1px 2px 3px #9d451d;
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2825b+0,e55b2b+50,f07146+100;Red+3D+%232 */
-    background: rgb(242,130,91); /* Old browsers */
-    background: -moz-linear-gradient(left,  rgba(242,130,91,1) 0%, rgba(229,91,43,1) 50%, rgba(240,113,70,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(242,130,91,1) 0%,rgba(229,91,43,1) 50%,rgba(240,113,70,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(242,130,91,1) 0%,rgba(229,91,43,1) 50%,rgba(240,113,70,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2825b', endColorstr='#f07146',GradientType=1 ); /* IE6-9 */
-}
 
-a.vlink:hover span {
-    opacity:1;
-    width:120px;
-    transform:translateX(12px);
-    background : #343434;
-    font-size:16px;
-    border-radius:6px;
-    border-left:4px solid #000;
-    padding : 0px 12px 0px 12px
-}
 
-ul {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
-    background: rgb(69,72,77); /* Old browsers */
-    background: -moz-linear-gradient(left,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
-    box-shadow :-6px 12px 5px 2px rgba(145,145,145,0.5)
-}
