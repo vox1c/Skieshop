@@ -61,29 +61,3 @@ nav{
     text-align: center;
     background-color: #354a62;
 }
-
-
-
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-.column {
-    flex: 20%;
-    padding: 0 4px;
-    text-align: center;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: auto;
-    height: 300px;
-}
-
-
-
-
