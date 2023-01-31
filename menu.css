@@ -84,6 +84,47 @@ nav{
     height: 300px;
 }
 
+.footer{
+    background-color: #cbc5c5;
+    height: 250px;
+    width: 100%;
+    bottom: 0px;
+    margin-top: 100px;
+}
+
+.liste1{
+    margin-left: 230px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 30%;
+    float: left;
+    list-style-type: none;
+}
+
+.liste2{
+    margin-left: 45px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 30%;
+    float: left;
+    list-style-type: none;
+}
+
+.liste3{
+    margin-left: 45px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 20%;
+    float: left;
+    list-style-type: none;
+}
+
+.links{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
 
 
 

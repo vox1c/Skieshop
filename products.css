@@ -61,3 +61,107 @@ nav{
     text-align: center;
     background-color: #354a62;
 }
+
+img{
+    width: 400px;
+    height: auto;
+    align-items: center;
+}
+section{
+    width: 100%;
+    height: auto;
+}
+article{
+    width: 50%;
+    float: left;
+    padding-left: 150px;
+}
+
+aside{
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    font-size: larger;
+}
+
+body{
+    background: white;
+
+}
+
+
+.KaufButton{
+    text-align: center;
+    text-decoration: black;
+    font-size: larger;
+    background-color: rgb(201, 0, 144);
+    border-radius: 4px;
+    width: 140px;
+    height: 40px;
+    font-family: Arial;
+}
+.KaufButton:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+.imagebtn{
+    vertical-align: top;
+}
+
+.Merkmale{
+    margin-left: 45px;
+    font-family: Arial;
+}
+
+.Skiname{
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.Preis{
+    color: orange;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.footer{
+    background-color: #f6f6f6;
+    height: 250px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+}
+
+.liste1{
+    margin-left: 230px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 30%;
+    float: left;
+    list-style-type: none;
+}
+
+.liste2{
+    margin-left: 45px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 30%;
+    float: left;
+    list-style-type: none;
+}
+
+.liste3{
+    margin-left: 45px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    width: 20%;
+    float: left;
+    list-style-type: none;
+}
+
+.links{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
