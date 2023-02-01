@@ -89,8 +89,8 @@ aside{
 }
 
 body{
-    background: white;
-
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/134/234/391/photography-mountains-snow-landscape-wallpaper-preview.jpg");
+    background-size: 100%auto;
 }
 
 
@@ -98,14 +98,14 @@ body{
     text-align: center;
     text-decoration: black;
     font-size: larger;
-    background-color: rgb(201, 0, 144);
+    background-color: lightblue;
     border-radius: 4px;
     width: 140px;
     height: 40px;
     font-family: Arial;
 }
 .KaufButton:hover{
-    background-color: blueviolet;
+    background-color: cornflowerblue;
     cursor: pointer;
 }
 
