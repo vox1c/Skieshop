@@ -62,10 +62,13 @@ nav{
     background-color: #354a62;
 }
 
-img{
+.articleimg{
     width: 400px;
     height: auto;
     align-items: center;
+    cursor: pointer;
+    border: 5px solid black;
+    border-radius: 20px;
 }
 section{
     width: 100%;
@@ -74,7 +77,8 @@ section{
 article{
     width: 50%;
     float: left;
-    padding-left: 150px;
+    padding-left: 280px;
+    padding-top: 30px;
 }
 
 aside{
@@ -105,9 +109,6 @@ body{
     cursor: pointer;
 }
 
-.imagebtn{
-    vertical-align: top;
-}
 
 .Merkmale{
     margin-left: 45px;
@@ -126,7 +127,7 @@ body{
 }
 
 .footer{
-    background-color: #f6f6f6;
+    background-color: #e7dcdc;
     height: 250px;
     width: 100%;
     position: fixed;
@@ -165,3 +166,35 @@ body{
     cursor: pointer;
     color: black;
 }
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 20%;
+    height: 20%;
+}
+
+.outeriframebtn{
+    background-color: transparent;
+    cursor: pointer;
+    border-color: transparent;
+}
+
+.outeriframebtn:hover{
+    text-decoration: white;
+    opacity: 40%;
+}
+
+.inneriframebtn{
+    cursor: pointer;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+
