@@ -78,13 +78,13 @@ article{
     width: 50%;
     float: left;
     padding-left: 280px;
-    padding-top: 30px;
+    padding-top: 120px;
 }
 
 aside{
     width: 50%;
     float: left;
-    padding-top: 30px;
+    padding-top: 120px;
     font-size: larger;
 }
 
@@ -130,8 +130,8 @@ body{
     background-color: #e7dcdc;
     height: 250px;
     width: 100%;
-    position: fixed;
     bottom: 0px;
+    margin-top: 850px;
 }
 
 .liste1{
@@ -175,8 +175,8 @@ body{
     background-color: white;
     padding: 5px;
     border: 1px solid gray;
-    width: 20%;
-    height: 20%;
+    width: 500px;
+    height: 300px;
 }
 
 .outeriframebtn{
